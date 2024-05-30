@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TFModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="TFEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Clientes" EntityType="TFModel.Cliente" />
+    <EntitySet Name="Empleados" EntityType="TFModel.Empleado" />
+    <EntitySet Name="Pedidos" EntityType="TFModel.Pedido" />
+    <EntitySet Name="Productos" EntityType="TFModel.Producto" />
+    <EntitySet Name="ProductoxProveedors" EntityType="TFModel.ProductoxProveedor" />
+    <EntitySet Name="Proveedors" EntityType="TFModel.Proveedor" />
+    <EntitySet Name="Detalle_Pedidos" EntityType="TFModel.Detalle_Pedido" />
+    <EntitySet Name="PagoEmpleados" EntityType="TFModel.PagoEmpleado" />
+    <AssociationSet Name="Pedido_Cliente" Association="TFModel.Pedido_Cliente">
+      <End Role="Cliente" EntitySet="Clientes" />
+      <End Role="Pedido" EntitySet="Pedidos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PagoEmpleado_Empleado" Association="TFModel.FK_PagoEmpleado_Empleado">
+      <End Role="Empleado" EntitySet="Empleados" />
+      <End Role="PagoEmpleado" EntitySet="PagoEmpleados" />
+    </AssociationSet>
+    <AssociationSet Name="Pedido_Empleado" Association="TFModel.Pedido_Empleado">
+      <End Role="Empleado" EntitySet="Empleados" />
+      <End Role="Pedido" EntitySet="Pedidos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Detalle_Pedido_Pedido" Association="TFModel.FK_Detalle_Pedido_Pedido">
+      <End Role="Pedido" EntitySet="Pedidos" />
+      <End Role="Detalle_Pedido" EntitySet="Detalle_Pedidos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Detalle_Pedido_Producto" Association="TFModel.FK_Detalle_Pedido_Producto">
+      <End Role="Producto" EntitySet="Productos" />
+      <End Role="Detalle_Pedido" EntitySet="Detalle_Pedidos" />
+    </AssociationSet>
+    <AssociationSet Name="PedidoxProveedor_Producto" Association="TFModel.PedidoxProveedor_Producto">
+      <End Role="Producto" EntitySet="Productos" />
+      <End Role="ProductoxProveedor" EntitySet="ProductoxProveedors" />
+    </AssociationSet>
+    <AssociationSet Name="PedidoxProveedor_Proveedor" Association="TFModel.PedidoxProveedor_Proveedor">
+      <End Role="Proveedor" EntitySet="Proveedors" />
+      <End Role="ProductoxProveedor" EntitySet="ProductoxProveedors" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="ID_cliente" />
+    </Key>
+    <Property Name="ID_cliente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Edad" Type="Int32" Nullable="false" />
+    <Property Name="Numero_telefono" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Correo_electronico" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Contrasenia" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Distrito" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Pedidoes" Relationship="TFModel.Pedido_Cliente" FromRole="Cliente" ToRole="Pedido" />
+  </EntityType>
+  <EntityType Name="Empleado">
+    <Key>
+      <PropertyRef Name="ID_del_Empleado" />
+    </Key>
+    <Property Name="ID_del_Empleado" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Apellido" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Telefono" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Contrasenia" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="PagoEmpleadoes" Relationship="TFModel.FK_PagoEmpleado_Empleado" FromRole="Empleado" ToRole="PagoEmpleado" />
+    <NavigationProperty Name="Pedidoes" Relationship="TFModel.Pedido_Empleado" FromRole="Empleado" ToRole="Pedido" />
+  </EntityType>
+  <EntityType Name="Pedido">
+    <Key>
+      <PropertyRef Name="ID_de_pedido" />
+    </Key>
+    <Property Name="ID_de_pedido" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Fecha_de_pedido" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Estado_pedido" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Cliente_ID_cliente" Type="Int32" Nullable="false" />
+    <Property Name="Empleado_ID_del_Empleado" Type="Int32" />
+    <Property Name="Total" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Cliente" Relationship="TFModel.Pedido_Cliente" FromRole="Pedido" ToRole="Cliente" />
+    <NavigationProperty Name="Empleado" Relationship="TFModel.Pedido_Empleado" FromRole="Pedido" ToRole="Empleado" />
+    <NavigationProperty Name="Detalle_Pedido" Relationship="TFModel.FK_Detalle_Pedido_Pedido" FromRole="Pedido" ToRole="Detalle_Pedido" />
+  </EntityType>
+  <EntityType Name="Producto">
+    <Key>
+      <PropertyRef Name="ID_Producto" />
+    </Key>
+    <Property Name="ID_Producto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre_producto" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Precio_producto" Type="Double" Nullable="false" />
+    <Property Name="Descripcion_producto" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="Categorias_Productos_ID_Categoria" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Detalle_Pedido" Relationship="TFModel.FK_Detalle_Pedido_Producto" FromRole="Producto" ToRole="Detalle_Pedido" />
+    <NavigationProperty Name="ProductoxProveedors" Relationship="TFModel.PedidoxProveedor_Producto" FromRole="Producto" ToRole="ProductoxProveedor" />
+  </EntityType>
+  <EntityType Name="ProductoxProveedor">
+    <Key>
+      <PropertyRef Name="ID_del_Pedido_a_Proveedor" />
+    </Key>
+    <Property Name="ID_del_Pedido_a_Proveedor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Fecha_pedido" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Fecha_entrega" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Proveedor_ID_Proovedor" Type="Int32" Nullable="false" />
+    <Property Name="Producto_ID_Producto" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Producto" Relationship="TFModel.PedidoxProveedor_Producto" FromRole="ProductoxProveedor" ToRole="Producto" />
+    <NavigationProperty Name="Proveedor" Relationship="TFModel.PedidoxProveedor_Proveedor" FromRole="ProductoxProveedor" ToRole="Proveedor" />
+  </EntityType>
+  <EntityType Name="Proveedor">
+    <Key>
+      <PropertyRef Name="ID_Proovedor" />
+    </Key>
+    <Property Name="ID_Proovedor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre_proveedor" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Direccion_proveedor" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Numero_telefono_proveedor" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Correo_electronico_proveedor" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ProductoxProveedors" Relationship="TFModel.PedidoxProveedor_Proveedor" FromRole="Proveedor" ToRole="ProductoxProveedor" />
+  </EntityType>
+  <EntityType Name="Detalle_Pedido">
+    <Key>
+      <PropertyRef Name="ID_de_pedido" />
+      <PropertyRef Name="ID_Producto" />
+      <PropertyRef Name="Cantidad" />
+      <PropertyRef Name="Total" />
+    </Key>
+    <Property Name="ID_de_pedido" Type="Int32" Nullable="false" />
+    <Property Name="ID_Producto" Type="Int32" Nullable="false" />
+    <Property Name="Cantidad" Type="Int32" Nullable="false" />
+    <Property Name="Total" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Pedido" Relationship="TFModel.FK_Detalle_Pedido_Pedido" FromRole="Detalle_Pedido" ToRole="Pedido" />
+    <NavigationProperty Name="Producto" Relationship="TFModel.FK_Detalle_Pedido_Producto" FromRole="Detalle_Pedido" ToRole="Producto" />
+  </EntityType>
+  <EntityType Name="PagoEmpleado">
+    <Key>
+      <PropertyRef Name="ID_Empleado" />
+      <PropertyRef Name="fecha" />
+      <PropertyRef Name="PagoHora" />
+      <PropertyRef Name="CantHora" />
+      <PropertyRef Name="TipoPago" />
+      <PropertyRef Name="Total" />
+    </Key>
+    <Property Name="ID_Empleado" Type="Int32" Nullable="false" />
+    <Property Name="fecha" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="PagoHora" Type="Double" Nullable="false" />
+    <Property Name="CantHora" Type="Int32" Nullable="false" />
+    <Property Name="TipoPago" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Total" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Empleado" Relationship="TFModel.FK_PagoEmpleado_Empleado" FromRole="PagoEmpleado" ToRole="Empleado" />
+  </EntityType>
+  <Association Name="Pedido_Cliente">
+    <End Type="TFModel.Cliente" Role="Cliente" Multiplicity="1" />
+    <End Type="TFModel.Pedido" Role="Pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="ID_cliente" />
+      </Principal>
+      <Dependent Role="Pedido">
+        <PropertyRef Name="Cliente_ID_cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PagoEmpleado_Empleado">
+    <End Type="TFModel.Empleado" Role="Empleado" Multiplicity="1" />
+    <End Type="TFModel.PagoEmpleado" Role="PagoEmpleado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="ID_del_Empleado" />
+      </Principal>
+      <Dependent Role="PagoEmpleado">
+        <PropertyRef Name="ID_Empleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Pedido_Empleado">
+    <End Type="TFModel.Empleado" Role="Empleado" Multiplicity="0..1" />
+    <End Type="TFModel.Pedido" Role="Pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="ID_del_Empleado" />
+      </Principal>
+      <Dependent Role="Pedido">
+        <PropertyRef Name="Empleado_ID_del_Empleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Detalle_Pedido_Pedido">
+    <End Type="TFModel.Pedido" Role="Pedido" Multiplicity="1" />
+    <End Type="TFModel.Detalle_Pedido" Role="Detalle_Pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pedido">
+        <PropertyRef Name="ID_de_pedido" />
+      </Principal>
+      <Dependent Role="Detalle_Pedido">
+        <PropertyRef Name="ID_de_pedido" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Detalle_Pedido_Producto">
+    <End Type="TFModel.Producto" Role="Producto" Multiplicity="1" />
+    <End Type="TFModel.Detalle_Pedido" Role="Detalle_Pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="ID_Producto" />
+      </Principal>
+      <Dependent Role="Detalle_Pedido">
+        <PropertyRef Name="ID_Producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PedidoxProveedor_Producto">
+    <End Type="TFModel.Producto" Role="Producto" Multiplicity="1" />
+    <End Type="TFModel.ProductoxProveedor" Role="ProductoxProveedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="ID_Producto" />
+      </Principal>
+      <Dependent Role="ProductoxProveedor">
+        <PropertyRef Name="Producto_ID_Producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PedidoxProveedor_Proveedor">
+    <End Type="TFModel.Proveedor" Role="Proveedor" Multiplicity="1" />
+    <End Type="TFModel.ProductoxProveedor" Role="ProductoxProveedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedor">
+        <PropertyRef Name="ID_Proovedor" />
+      </Principal>
+      <Dependent Role="ProductoxProveedor">
+        <PropertyRef Name="Proveedor_ID_Proovedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

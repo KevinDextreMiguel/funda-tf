@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TFModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="ID_cliente" />
+    </Key>
+    <Property Name="ID_cliente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Apellido" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Edad" Type="int" Nullable="false" />
+    <Property Name="Numero_telefono" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Correo_electronico" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Contrasenia" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Distrito" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'TF.dbo.Detalle_Pedido' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Detalle_Pedido">
+    <Key>
+      <PropertyRef Name="ID_de_pedido" />
+      <PropertyRef Name="ID_Producto" />
+      <PropertyRef Name="Cantidad" />
+      <PropertyRef Name="Total" />
+    </Key>
+    <Property Name="ID_de_pedido" Type="int" Nullable="false" />
+    <Property Name="ID_Producto" Type="int" Nullable="false" />
+    <Property Name="Cantidad" Type="int" Nullable="false" />
+    <Property Name="Total" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Empleado">
+    <Key>
+      <PropertyRef Name="ID_del_Empleado" />
+    </Key>
+    <Property Name="ID_del_Empleado" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Apellido" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Telefono" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Contrasenia" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'TF.dbo.PagoEmpleado' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="PagoEmpleado">
+    <Key>
+      <PropertyRef Name="ID_Empleado" />
+      <PropertyRef Name="fecha" />
+      <PropertyRef Name="PagoHora" />
+      <PropertyRef Name="CantHora" />
+      <PropertyRef Name="TipoPago" />
+      <PropertyRef Name="Total" />
+    </Key>
+    <Property Name="ID_Empleado" Type="int" Nullable="false" />
+    <Property Name="fecha" Type="date" Nullable="false" />
+    <Property Name="PagoHora" Type="float" Nullable="false" />
+    <Property Name="CantHora" Type="int" Nullable="false" />
+    <Property Name="TipoPago" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Total" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pedido">
+    <Key>
+      <PropertyRef Name="ID_de_pedido" />
+    </Key>
+    <Property Name="ID_de_pedido" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha_de_pedido" Type="date" Nullable="false" />
+    <Property Name="Estado_pedido" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Cliente_ID_cliente" Type="int" Nullable="false" />
+    <Property Name="Empleado_ID_del_Empleado" Type="int" />
+    <Property Name="Total" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Producto">
+    <Key>
+      <PropertyRef Name="ID_Producto" />
+    </Key>
+    <Property Name="ID_Producto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre_producto" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Precio_producto" Type="float" Nullable="false" />
+    <Property Name="Descripcion_producto" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="Categorias_Productos_ID_Categoria" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductoxProveedor">
+    <Key>
+      <PropertyRef Name="ID_del_Pedido_a_Proveedor" />
+    </Key>
+    <Property Name="ID_del_Pedido_a_Proveedor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fecha_pedido" Type="date" Nullable="false" />
+    <Property Name="Fecha_entrega" Type="date" Nullable="false" />
+    <Property Name="Proveedor_ID_Proovedor" Type="int" Nullable="false" />
+    <Property Name="Producto_ID_Producto" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Proveedor">
+    <Key>
+      <PropertyRef Name="ID_Proovedor" />
+    </Key>
+    <Property Name="ID_Proovedor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre_proveedor" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Direccion_proveedor" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Numero_telefono_proveedor" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Correo_electronico_proveedor" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Detalle_Pedido_Pedido">
+    <End Role="Pedido" Type="Self.Pedido" Multiplicity="1" />
+    <End Role="Detalle_Pedido" Type="Self.Detalle_Pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pedido">
+        <PropertyRef Name="ID_de_pedido" />
+      </Principal>
+      <Dependent Role="Detalle_Pedido">
+        <PropertyRef Name="ID_de_pedido" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Detalle_Pedido_Producto">
+    <End Role="Producto" Type="Self.Producto" Multiplicity="1" />
+    <End Role="Detalle_Pedido" Type="Self.Detalle_Pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="ID_Producto" />
+      </Principal>
+      <Dependent Role="Detalle_Pedido">
+        <PropertyRef Name="ID_Producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PagoEmpleado_Empleado">
+    <End Role="Empleado" Type="Self.Empleado" Multiplicity="1" />
+    <End Role="PagoEmpleado" Type="Self.PagoEmpleado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="ID_del_Empleado" />
+      </Principal>
+      <Dependent Role="PagoEmpleado">
+        <PropertyRef Name="ID_Empleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Pedido_Cliente">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="1" />
+    <End Role="Pedido" Type="Self.Pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="ID_cliente" />
+      </Principal>
+      <Dependent Role="Pedido">
+        <PropertyRef Name="Cliente_ID_cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Pedido_Empleado">
+    <End Role="Empleado" Type="Self.Empleado" Multiplicity="0..1" />
+    <End Role="Pedido" Type="Self.Pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empleado">
+        <PropertyRef Name="ID_del_Empleado" />
+      </Principal>
+      <Dependent Role="Pedido">
+        <PropertyRef Name="Empleado_ID_del_Empleado" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PedidoxProveedor_Producto">
+    <End Role="Producto" Type="Self.Producto" Multiplicity="1" />
+    <End Role="ProductoxProveedor" Type="Self.ProductoxProveedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Producto">
+        <PropertyRef Name="ID_Producto" />
+      </Principal>
+      <Dependent Role="ProductoxProveedor">
+        <PropertyRef Name="Producto_ID_Producto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PedidoxProveedor_Proveedor">
+    <End Role="Proveedor" Type="Self.Proveedor" Multiplicity="1" />
+    <End Role="ProductoxProveedor" Type="Self.ProductoxProveedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Proveedor">
+        <PropertyRef Name="ID_Proovedor" />
+      </Principal>
+      <Dependent Role="ProductoxProveedor">
+        <PropertyRef Name="Proveedor_ID_Proovedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TFModelStoreContainer">
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Empleado" EntityType="Self.Empleado" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pedido" EntityType="Self.Pedido" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Producto" EntityType="Self.Producto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductoxProveedor" EntityType="Self.ProductoxProveedor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Proveedor" EntityType="Self.Proveedor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Detalle_Pedido" EntityType="Self.Detalle_Pedido" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Detalle_Pedido].[ID_de_pedido] AS [ID_de_pedido], 
+    [Detalle_Pedido].[ID_Producto] AS [ID_Producto], 
+    [Detalle_Pedido].[Cantidad] AS [Cantidad], 
+    [Detalle_Pedido].[Total] AS [Total]
+    FROM [dbo].[Detalle_Pedido] AS [Detalle_Pedido]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="PagoEmpleado" EntityType="Self.PagoEmpleado" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [PagoEmpleado].[ID_Empleado] AS [ID_Empleado], 
+    [PagoEmpleado].[fecha] AS [fecha], 
+    [PagoEmpleado].[PagoHora] AS [PagoHora], 
+    [PagoEmpleado].[CantHora] AS [CantHora], 
+    [PagoEmpleado].[TipoPago] AS [TipoPago], 
+    [PagoEmpleado].[Total] AS [Total]
+    FROM [dbo].[PagoEmpleado] AS [PagoEmpleado]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Detalle_Pedido_Pedido" Association="Self.FK_Detalle_Pedido_Pedido">
+      <End Role="Pedido" EntitySet="Pedido" />
+      <End Role="Detalle_Pedido" EntitySet="Detalle_Pedido" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Detalle_Pedido_Producto" Association="Self.FK_Detalle_Pedido_Producto">
+      <End Role="Producto" EntitySet="Producto" />
+      <End Role="Detalle_Pedido" EntitySet="Detalle_Pedido" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PagoEmpleado_Empleado" Association="Self.FK_PagoEmpleado_Empleado">
+      <End Role="Empleado" EntitySet="Empleado" />
+      <End Role="PagoEmpleado" EntitySet="PagoEmpleado" />
+    </AssociationSet>
+    <AssociationSet Name="Pedido_Cliente" Association="Self.Pedido_Cliente">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Pedido" EntitySet="Pedido" />
+    </AssociationSet>
+    <AssociationSet Name="Pedido_Empleado" Association="Self.Pedido_Empleado">
+      <End Role="Empleado" EntitySet="Empleado" />
+      <End Role="Pedido" EntitySet="Pedido" />
+    </AssociationSet>
+    <AssociationSet Name="PedidoxProveedor_Producto" Association="Self.PedidoxProveedor_Producto">
+      <End Role="Producto" EntitySet="Producto" />
+      <End Role="ProductoxProveedor" EntitySet="ProductoxProveedor" />
+    </AssociationSet>
+    <AssociationSet Name="PedidoxProveedor_Proveedor" Association="Self.PedidoxProveedor_Proveedor">
+      <End Role="Proveedor" EntitySet="Proveedor" />
+      <End Role="ProductoxProveedor" EntitySet="ProductoxProveedor" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

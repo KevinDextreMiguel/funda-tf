@@ -1,0 +1,794 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|c:\\users\\51958\\downloads\\funda-tf-main\\funda-tf-main\\capadatos\\dataproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\dataproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1380119-8354-41EC-A889-9E07EF80FB47}|CapaNegocios\\CapaNegocios.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capanegocios\\negpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1380119-8354-41EC-A889-9E07EF80FB47}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\negpedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\atrabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\atrabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\aclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\aclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\aclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\aclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\agestionadministrativa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\agestionadministrativa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\agestionadministrativa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\agestionadministrativa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\frmregistrarproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\frmregistrarproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\frmregistrarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\frmregistrarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\atrabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\atrabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\aregistrarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\aregistrarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\amiestadocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\amiestadocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\afrmregistrartrabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\afrmregistrartrabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\afrmpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\afrmpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capadatos\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\afrmpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\afrmpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\afrmregistrartrabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\afrmregistrartrabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capadatos\\pagoempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\pagoempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capadatos\\detalle_pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\detalle_pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capadatos\\productoxproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\productoxproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capadatos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capadatos\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capadatos\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capadatos\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capadatos\\datapagoempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\datapagoempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1380119-8354-41EC-A889-9E07EF80FB47}|CapaNegocios\\CapaNegocios.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capanegocios\\negpagoempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1380119-8354-41EC-A889-9E07EF80FB47}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\negpagoempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capadatos\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\aregistrarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\aregistrarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\frmregistrarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\frmregistrarcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capadatos\\datadetallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\datadetallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1380119-8354-41EC-A889-9E07EF80FB47}|CapaNegocios\\CapaNegocios.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capanegocios\\negdetallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1380119-8354-41EC-A889-9E07EF80FB47}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\negdetallepedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capadatos\\dataempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\dataempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capadatos\\datacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\datacliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capadatos\\model1.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\model1.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\atrabajador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\atrabajador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1380119-8354-41EC-A889-9E07EF80FB47}|CapaNegocios\\CapaNegocios.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capanegocios\\negempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1380119-8354-41EC-A889-9E07EF80FB47}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\negempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capadatos\\datapedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\datapedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1380119-8354-41EC-A889-9E07EF80FB47}|CapaNegocios\\CapaNegocios.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capanegocios\\negcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1380119-8354-41EC-A889-9E07EF80FB47}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\negcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\amiestadocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\amiestadocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capadatos\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BBD11CB3-5EC5-42A6-83FD-D1D66E14E54D}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\frmregistrarcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\frmregistrarcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\proyecto_fundamentos_sistemas\\frmregistrarproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0FD24D-ACFB-4DFC-B109-D8284D4E8394}|Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas.csproj|solutionrelative:proyecto_fundamentos_sistemas\\frmregistrarproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1380119-8354-41EC-A889-9E07EF80FB47}|CapaNegocios\\CapaNegocios.csproj|C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\capanegocios\\negproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1380119-8354-41EC-A889-9E07EF80FB47}|CapaNegocios\\CapaNegocios.csproj|solutionrelative:capanegocios\\negproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 29,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmRegistrarProveedores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\frmRegistrarProveedores.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\frmRegistrarProveedores.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\frmRegistrarProveedores.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\frmRegistrarProveedores.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:58.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AClientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\AClientes.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\AClientes.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\AClientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\AClientes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:58.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AGestionAdministrativa.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\AGestionAdministrativa.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\AGestionAdministrativa.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\AGestionAdministrativa.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\AGestionAdministrativa.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:58.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AClientes.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\AClientes.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\AClientes.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\AClientes.cs",
+              "RelativeToolTip": "Proyecto_Fundamentos_Sistemas\\AClientes.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAiwGsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:58.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ATrabajador.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\ATrabajador.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\ATrabajador.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\ATrabajador.cs [Design]",
+              "RelativeToolTip": "..\\..\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\ATrabajador.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:55:58.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AGestionAdministrativa.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\AGestionAdministrativa.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\AGestionAdministrativa.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\AGestionAdministrativa.cs",
+              "RelativeToolTip": "Proyecto_Fundamentos_Sistemas\\AGestionAdministrativa.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAiwCQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:58.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ARegistrarProducto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\ARegistrarProducto.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\ARegistrarProducto.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\ARegistrarProducto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\ARegistrarProducto.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:58.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ATrabajador.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\ATrabajador.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\ATrabajador.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\ATrabajador.cs",
+              "RelativeToolTip": "Proyecto_Fundamentos_Sistemas\\ATrabajador.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAIAwwBIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:55:59.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmRegistrarCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\frmRegistrarCliente.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\frmRegistrarCliente.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\frmRegistrarCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\frmRegistrarCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:59.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\FormPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\FormPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:59.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AMiEstadoCompra.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\AMiEstadoCompra.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\AMiEstadoCompra.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\AMiEstadoCompra.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\AMiEstadoCompra.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:59.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AfrmRegistrarTrabajador.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\AfrmRegistrarTrabajador.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\AfrmRegistrarTrabajador.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\AfrmRegistrarTrabajador.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\AfrmRegistrarTrabajador.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:59.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AfrmPedidos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\AfrmPedidos.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\AfrmPedidos.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\AfrmPedidos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\Proyecto_Fundamentos_Sistemas\\AfrmPedidos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:59.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\FormPrincipal.cs",
+              "RelativeToolTip": "Proyecto_Fundamentos_Sistemas\\FormPrincipal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:59.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NegPedido.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaNegocios\\NegPedido.cs",
+              "RelativeDocumentMoniker": "CapaNegocios\\NegPedido.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaNegocios\\NegPedido.cs",
+              "RelativeToolTip": "CapaNegocios\\NegPedido.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAawAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:55:59.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AfrmPedidos.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\AfrmPedidos.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\AfrmPedidos.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\AfrmPedidos.cs",
+              "RelativeToolTip": "Proyecto_Fundamentos_Sistemas\\AfrmPedidos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:59.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\Pedido.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Pedido.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\Pedido.cs",
+              "RelativeToolTip": "CapaDatos\\Pedido.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-05-30T02:55:59.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\Producto.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Producto.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\Producto.cs",
+              "RelativeToolTip": "CapaDatos\\Producto.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-05-30T02:55:59.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PagoEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\PagoEmpleado.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\PagoEmpleado.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\PagoEmpleado.cs",
+              "RelativeToolTip": "CapaDatos\\PagoEmpleado.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwCMAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-05-30T02:55:59.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Detalle_Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\Detalle_Pedido.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Detalle_Pedido.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\Detalle_Pedido.cs",
+              "RelativeToolTip": "CapaDatos\\Detalle_Pedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-05-30T02:55:59.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductoxProveedor.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\ProductoxProveedor.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\ProductoxProveedor.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\ProductoxProveedor.cs",
+              "RelativeToolTip": "CapaDatos\\ProductoxProveedor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-05-30T02:55:59.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AfrmRegistrarTrabajador.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\AfrmRegistrarTrabajador.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\AfrmRegistrarTrabajador.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\AfrmRegistrarTrabajador.cs",
+              "RelativeToolTip": "Proyecto_Fundamentos_Sistemas\\AfrmRegistrarTrabajador.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAEwGgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:59.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\Cliente.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Cliente.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\Cliente.cs",
+              "RelativeToolTip": "CapaDatos\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-05-30T02:55:59.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\Empleado.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Empleado.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\Empleado.cs",
+              "RelativeToolTip": "CapaDatos\\Empleado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-05-30T02:55:59.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Model1.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\Model1.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Model1.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\Model1.cs",
+              "RelativeToolTip": "CapaDatos\\Model1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-05-30T02:55:59.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "NegPagoEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaNegocios\\NegPagoEmpleado.cs",
+              "RelativeDocumentMoniker": "CapaNegocios\\NegPagoEmpleado.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaNegocios\\NegPagoEmpleado.cs",
+              "RelativeToolTip": "CapaNegocios\\NegPagoEmpleado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:55:59.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DataPagoEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\DataPagoEmpleado.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\DataPagoEmpleado.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\DataPagoEmpleado.cs",
+              "RelativeToolTip": "CapaDatos\\DataPagoEmpleado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:55:59.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\Model1.edmx",
+              "RelativeDocumentMoniker": "CapaDatos\\Model1.edmx",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\CapaDatos\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "..\\..\\..\\..\\USER\\Desktop\\Proyecto_Fundamentos_Sistemas\\CapaDatos\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-05-30T02:55:59.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmRegistrarCliente.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\frmRegistrarCliente.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\frmRegistrarCliente.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\frmRegistrarCliente.cs",
+              "RelativeToolTip": "Proyecto_Fundamentos_Sistemas\\frmRegistrarCliente.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAtwCMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:59.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataProducto.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\DataProducto.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\DataProducto.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\DataProducto.cs",
+              "RelativeToolTip": "CapaDatos\\DataProducto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:55:59.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ARegistrarProducto.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\ARegistrarProducto.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\ARegistrarProducto.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\ARegistrarProducto.cs",
+              "RelativeToolTip": "Proyecto_Fundamentos_Sistemas\\ARegistrarProducto.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAtwFAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:59.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "NegDetallePedido.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaNegocios\\NegDetallePedido.cs",
+              "RelativeDocumentMoniker": "CapaNegocios\\NegDetallePedido.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaNegocios\\NegDetallePedido.cs",
+              "RelativeToolTip": "CapaNegocios\\NegDetallePedido.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:55:59.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DataDetallePedido.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\DataDetallePedido.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\DataDetallePedido.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\DataDetallePedido.cs",
+              "RelativeToolTip": "CapaDatos\\DataDetallePedido.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAtwFcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:55:59.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DataEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\DataEmpleado.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\DataEmpleado.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\DataEmpleado.cs",
+              "RelativeToolTip": "CapaDatos\\DataEmpleado.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:55:59.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DataCliente.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\DataCliente.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\DataCliente.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\DataCliente.cs",
+              "RelativeToolTip": "CapaDatos\\DataCliente.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAFIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:55:59.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Model1.tt",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\Model1.tt",
+              "RelativeDocumentMoniker": "CapaDatos\\Model1.tt",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\Model1.tt",
+              "RelativeToolTip": "CapaDatos\\Model1.tt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-05-30T02:55:59.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ATrabajador.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\ATrabajador.Designer.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\ATrabajador.Designer.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\ATrabajador.Designer.cs",
+              "RelativeToolTip": "Proyecto_Fundamentos_Sistemas\\ATrabajador.Designer.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAtwNUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-05-30T02:55:59.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\App.config",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\App.config",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\App.config",
+              "RelativeToolTip": "Proyecto_Fundamentos_Sistemas\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-30T02:55:59.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "NegEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaNegocios\\NegEmpleado.cs",
+              "RelativeDocumentMoniker": "CapaNegocios\\NegEmpleado.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaNegocios\\NegEmpleado.cs",
+              "RelativeToolTip": "CapaNegocios\\NegEmpleado.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAtwBwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:55:59.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DataPedido.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\DataPedido.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\DataPedido.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\DataPedido.cs",
+              "RelativeToolTip": "CapaDatos\\DataPedido.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:55:59.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AMiEstadoCompra.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\AMiEstadoCompra.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\AMiEstadoCompra.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\AMiEstadoCompra.cs",
+              "RelativeToolTip": "Proyecto_Fundamentos_Sistemas\\AMiEstadoCompra.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:59.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "NegCliente.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaNegocios\\NegCliente.cs",
+              "RelativeDocumentMoniker": "CapaNegocios\\NegCliente.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaNegocios\\NegCliente.cs",
+              "RelativeToolTip": "CapaNegocios\\NegCliente.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:55:59.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\packages.config",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\packages.config",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\packages.config",
+              "RelativeToolTip": "Proyecto_Fundamentos_Sistemas\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-30T02:55:59.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "App.Config",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\App.Config",
+              "RelativeDocumentMoniker": "CapaDatos\\App.Config",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaDatos\\App.Config",
+              "RelativeToolTip": "CapaDatos\\App.Config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-30T02:55:59.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "frmRegistrarCliente.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\frmRegistrarCliente.Designer.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\frmRegistrarCliente.Designer.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\frmRegistrarCliente.Designer.cs",
+              "RelativeToolTip": "Proyecto_Fundamentos_Sistemas\\frmRegistrarCliente.Designer.cs",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAUwLoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-05-30T02:55:59.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\Program.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\Program.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\Program.cs",
+              "RelativeToolTip": "Proyecto_Fundamentos_Sistemas\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:55:59.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "FormPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\FormPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\FormPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\FormPrincipal.Designer.cs",
+              "RelativeToolTip": "Proyecto_Fundamentos_Sistemas\\FormPrincipal.Designer.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAwwGIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2024-05-30T02:55:59.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "frmRegistrarProveedores.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\frmRegistrarProveedores.cs",
+              "RelativeDocumentMoniker": "Proyecto_Fundamentos_Sistemas\\frmRegistrarProveedores.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\Proyecto_Fundamentos_Sistemas\\frmRegistrarProveedores.cs",
+              "RelativeToolTip": "Proyecto_Fundamentos_Sistemas\\frmRegistrarProveedores.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-05-30T02:55:59.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "NegProducto.cs",
+              "DocumentMoniker": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaNegocios\\NegProducto.cs",
+              "RelativeDocumentMoniker": "CapaNegocios\\NegProducto.cs",
+              "ToolTip": "C:\\Users\\51958\\Downloads\\funda-tf-main\\funda-tf-main\\CapaNegocios\\NegProducto.cs",
+              "RelativeToolTip": "CapaNegocios\\NegProducto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T02:55:59.224Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
